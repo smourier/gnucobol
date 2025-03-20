@@ -44,6 +44,7 @@ struct system_name_struct {
 /* TODO: allow these to not only be enabled/disabled but defined by compiler configuration
          removing duplicates from this list (especially concerning the switches) */
 static struct system_name_struct	system_name_table[] = {
+	{"REQUESTOR",		CB_DEVICE_NAME,  CB_DEVICE_CONSOLE, CB_FEATURE_ACTIVE},
 	{"SYSIN",		CB_DEVICE_NAME,  CB_DEVICE_SYSIN, CB_FEATURE_ACTIVE},
 	{"SYSIPT",		CB_DEVICE_NAME,  CB_DEVICE_SYSIN, CB_FEATURE_ACTIVE},
 	{"STDIN",		CB_DEVICE_NAME,  CB_DEVICE_SYSIN, CB_FEATURE_ACTIVE},
